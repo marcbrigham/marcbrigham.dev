@@ -1,5 +1,5 @@
 <template>
-	<nav>
+	<nav class="s-navigation flex-1">
         <ul>
             <li><router-link to="/">Home</router-link></li>
             <li><router-link to="/work">Work</router-link></li>

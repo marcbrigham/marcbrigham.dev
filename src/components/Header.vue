@@ -1,7 +1,7 @@
 <template>
-	<header class="s-header">
-        <div class="max-w-xs s-header__logo ">
-            <a href="/"><img :src="`${logoUrl}`"></a>
+	<header class="s-header flex bg-dark-green">
+        <div class="max-w-100 s-header__logo flex-1">
+            <a href="/">Marc Brigham</a>
         </div>
         <MainNavigation />
     </header>
