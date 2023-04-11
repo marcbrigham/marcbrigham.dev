@@ -1,12 +1,9 @@
 <template>
-	<nav class="s-navigation flex-1">
-        <ul>
-            <li><router-link to="/">Home</router-link></li>
-            <li><router-link to="/work">Work</router-link></li>
-            <li><router-link to="/about-me">About Me</router-link></li>
-            <li><router-link to="/resume">Resume</router-link></li>
-            <li><router-link to="/contact">Contact</router-link></li>
-        </ul>
+	<nav class="s-navigation">
+        <router-link class="s-navigation__link" to="/about">About Me</router-link>
+        <router-link class="s-navigation__link" to="/portfolio">Portfolio</router-link>
+        <router-link class="s-navigation__link" to="/resume">Resume</router-link>
+        <router-link class="s-navigation__link" to="/contact">Contact</router-link>
     </nav>
 </template>
 

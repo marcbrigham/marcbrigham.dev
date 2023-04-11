@@ -1,0 +1,22 @@
+.s-navigation{
+    &__link{
+        color:#c8c8c8;
+        font-size: 1.8rem;
+        text-transform: uppercase;
+        letter-spacing: 0;
+        position: static;
+        display: block;
+        width: 100%;
+        margin-bottom: -1px;
+        padding: 12px 14px;
+        text-align: center;
+        transition:.25s;
+        &:hover{
+            background-color:#000;
+            color:#fff;
+        }
+    }
+    .router-link-active{
+        font-weight:800;
+    }
+}
